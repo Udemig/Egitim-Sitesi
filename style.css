@@ -1,0 +1,13 @@
+/* Body ile ilk acilista bosluk verme olusturma*/
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+ }
